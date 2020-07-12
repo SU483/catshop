@@ -1,0 +1,44 @@
+/*index.html的css*/
+
+/*header开始*/
+#header{
+    height: 32px;
+    background: silver;
+    font-size: 12px;
+    /*行高=高度，让文字垂直居中*/
+    line-height: 32px;
+}
+
+#login-info{
+    float: left;
+}
+
+#quick-menu{
+    float: right;
+}
+
+#quick-menu .menu{
+    float: left;
+}
+
+#login-info span,#header a{
+    color:black;
+}
+
+#header a{
+    padding: 0 14px;
+}
+
+#header a:hover{
+    color: #ff0036;
+}
+
+#header .triangle{
+    width: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #bbbbbb transparent transparent transparent;
+}
+
+
+/*header结束*/
